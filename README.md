@@ -1,6 +1,4 @@
-# Betweenle (Versión de Consola) 🖥️
-
-Una implementación en terminal del juego de deducción alfabética **Betweenle**, desarrollada en **Java**. Este componente representa el núcleo lógico del proyecto, diseñado para ejecutarse directamente sobre el flujo de entrada y salida estándar ($I/O$).
+# Betweenle (Versión de Consola) 
 
 ---
 
