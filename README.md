@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Descripción del Juego
+## Descripción del Juego
 
 Esta versión recrea la experiencia de **Betweenle** prescindiendo de una interfaz gráfica, utilizando la consola del sistema para desplegar el estado de la partida. El objetivo principal es adivinar una palabra secreta mediante la reducción sistemática de un rango alfabético acotado por dos palabras límite: el **Límite Inferior** (inicialmente la primera palabra del diccionario) y el **Límite Superior** (la última palabra del diccionario).
 
@@ -10,7 +10,7 @@ A cada intento, el sistema valida la palabra introducida y restringe las fronter
 
 ---
 
-## 🚀 Características Principales
+## Características Principales
 
 * **Consola Interactiva Dinámica:** Flujo continuo de lectura y escritura optimizado mediante la clase `Scanner`.
 * **Validación de Diccionario:** Filtra rigurosamente cada intento del usuario para asegurar que la palabra introducida sea válida y exista dentro del léxico del juego.
@@ -20,7 +20,7 @@ A cada intento, el sistema valida la palabra introducida y restringe las fronter
 
 ---
 
-## 📂 Estructura y Lógica del Sistema
+## Estructura y Lógica del Sistema
 
 El flujo del programa en consola se ejecuta bajo un ciclo de control clásico de videojuegos (*Game Loop*) estructurado de la siguiente manera:
 
@@ -32,13 +32,6 @@ El flujo del programa en consola se ejecuta bajo un ciclo de control clásico de
    * Contracción dinámica de los límites si el intento es válido.
 4. **Fase de Despliegue (Render):** Impresión en texto plano de los nuevos límites alfabéticos, los intentos restantes y los mensajes de estado (retroalimentación de errores o aciertos).
 5. **Evaluación de Fin de Partida:** Verificación condicional de los estados de victoria (coincidencia exacta) o derrota (agotamiento de intentos) para romper el ciclo y liberar los recursos de entrada.
-
----
-
-## 🛠️ Tecnologías Utilizadas
-
-* **Lenguaje:** Java 8 o superior.
-* **Componentes Core:** `java.util.Scanner` para captura de datos, `java.util.List` / `ArrayList` para la persistencia del diccionario en memoria, y métodos nativos de la clase `String` para ordenamiento alfabético.
 
 ---
 
